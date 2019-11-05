@@ -7,7 +7,7 @@ To compile,<br>
 `make all`<br>
 
 To measure the time needed for open() and stat() function calls on your file system<br>
-Usage: 
+Usage: <br>
 `./t_open_stat fs_path n_hours` <br>
 `./cal_threshhold.sh t_log_open.txt` <br>
 `./cal_threshhold.sh t_log_stat.txt` <br>
