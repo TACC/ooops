@@ -27,3 +27,6 @@ To modify configurations, you can either change config or dynamically change the
 Example to use ooops to control the level of IO from one compute node. <br>
 ![Alt text](ooops_levels.png?raw=true "IO under various settings")
 
+Example to use ooops to adjust the level of IO on-fly when a job is running.
+![Alt text](change_io_on_fly.jpg?raw=true "Adjust IO level on-fly")
+
