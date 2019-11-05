@@ -19,6 +19,11 @@ To deploy ooops, <br>
 `export LD_PRELOAD=${PWD}/wrapper.so` <br>
  Run your apps as usual. 
 
+To modify configurations, you can either change config or only dynamically change the setting only on given node with set_io_param. Dynamically throttling with set_io_param works well without interrupting users' applications. 
+`set_io_param server_idx t_open max_open_freq t_stat max_stat_freq`<br>
+`or`<br>
+`set_io_param server_idx [ low / medium / high / unlimit ]`
+
 Example to use ooops to control the level of IO from one compute node. <br>
 ![Alt text](ooops_levels.png?raw=true "IO under various settings")
 
