@@ -19,4 +19,6 @@ To deploy ooops, <br>
 `export LD_PRELOAD=${PWD}/wrapper.so` <br>
  Run your apps as usual. 
 
+Example to use ooops to control the level of IO from one compute node. <br>
+![Alt text](ooops_levels.png?raw=true "IO under various settings")
 
