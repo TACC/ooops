@@ -7,6 +7,6 @@ To compile,<br>
 `make all`<br>
 
 To test how ooops works, <br>
-`export IO_LIMIT_CONFIG=```pwd```/config` <br>
-`export LD_PRELOAD=``pwd``/wrapper.so` <br>
+`export IO_LIMIT_CONFIG=${PWD}/config` <br>
+`export LD_PRELOAD=${PWD}/wrapper.so` <br>
 
