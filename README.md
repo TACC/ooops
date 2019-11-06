@@ -1,6 +1,5 @@
 # ooops
-OOOPS, short for Optimal Overloaded IO Protection System, is an innovative IO workload managing system that optimally throttles the IO workload from the users' side. <br>
-Thank Si Liu for coming up the name of this tool! <br>
+OOOPS, short for Optimal Overloaded IO Protection System, is an innovative IO workload managing system that optimally throttles the IO workload from the users' side. Thank Si Liu for coming up the name of this tool! <br>
 You can find [our paper](https://github.com/TACC/ooops/raw/master/OOOPS_2018.pdf) and [our slides](https://github.com/TACC/ooops/raw/master/OOOPS_HUST_2018_final.pdf) for details. Please feel free to contact [Lei Huang](https://www.tacc.utexas.edu/about/directory/lei-huang) for questions or suggestions. Thank you!
 
 Centralized file system shared by large number of users has been a week point of modern super computers for a while since there is no IO resource provisioning enforced. A small number of nodes could satuate the whole file system easily. Overloading file system could result in global filesystem performance degradation and even unresponsiveness for all users. ooops is designed to proactively protect file system and throttle the nodes with excessive I/O. With some modification, ooops can support user IO resource provisioning to enforce fair sharing. ooops is running on every node, so it can scale up to any arbitrary size of super computers. There is NO need for users to change anything on their side. The work for administrator to deploy ooops is also trivial. 
