@@ -87,6 +87,7 @@ int main(int argc, char *argv[])
 		printf("%s is NOT a directory.\nQuit\n", argv[1]);
 		exit(1);
 	}
+	strcpy(szWorkDir, argv[1]);
 	
 	nHour = atof(argv[2]);
 	
